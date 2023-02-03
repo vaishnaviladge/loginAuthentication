@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+*{
+font-size: 25px;  
+}
+.frame{
+
+  margin:7%;
+  border-style:solid;
+  border-radius:19px;
+  border-style: groove;
+  width: 60%;
+  background-image: url('yellow.png');
+}
+.frame2{
+    margin:7%;
+    border-style:solid;
+    border-radius:19px;
+    border-style: groove;
+    width: 60%;
+    background-image: url('yellow.png');
+ }
+ .frame3{
+  margin:6%;
+  border-style:solid;
+  border-radius:19px;
+  border-style: groove;
+  width: 30%;
+  background-image: url('yellow.png');
+  }
+ .btn{
+  margin:5%;
+  border-style:solid;
+  border-radius:15px;
+  width: 25%;
+  background-color: #E8AC41;
+ }
+  body{
+   background-image: url('shade.jfif');
+  }
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+    background-color:white;
+    background-image: url('shade.jfif');
+    
+  }
+  .right {
+    right: 0;
+
+    background-image: url('orang.png');
+  }
+  .left1 {
+    left: 0;
+    background-color:white;
+    background-image: url('orang.png');
+    
+  }
+  .right1 {
+    right: 0;
+
+    background-image: url('shade.jfif');
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  a{
+    color:#FF0800;
+  }
+  .left-side {
+    text-align: left;
+  }
+  .forgot{
+  font-size: 5%;
+  }
+ .user{
+  height: 30%;
+  width:20%;
+    ;}
+   
+.para{
+  fontfamily:"Comic Sans MS";
+  font-size: 60;
+  }
+.social{
+  height: 7%;
+  width:7%;
+  }
